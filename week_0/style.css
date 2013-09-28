@@ -1,0 +1,25 @@
+body {
+	background-color: blue;
+}
+
+h1 {
+	color: blue;
+	background-color: red;
+	font-style: italic;
+}
+
+/*  .blue is a class --> everything */ 
+.blue {
+	color: blue;
+	border: 1pt solid navajowhite;
+}
+
+.red {
+	color: red;
+	background-color: purple;
+	font-size: 100px;
+}
+
+h1 {
+	color: pink;
+}

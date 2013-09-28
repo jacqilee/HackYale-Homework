@@ -1,0 +1,60 @@
+Resources: stack overflow + google
+
+Anatomy of a webpage
+-HTML and CSS are not programming languages-- markup language, for writing stuff down
+-HTML = bones --> creates structure
+-CSS = skin + physical features
+-Javascript = muscles
+
+-HTML: imagine website is made of boxes within boxes..etc
+-Tags: <tagname>…</tagname>
+	whatever is inside the tag follows certain rules of that tag
+	you can also nest tags: imagine w/in tag1, you have tag2
+		<tag1>
+			<tag2>
+				Your content
+			</tag2>
+		</tag1>
+-Tags are rules + also create their own boxes
+-General tag = div
+	<div> Content </div>
+-Zen coding plug-in helps with writing html
+
+-<head> </head> nothing in the head ever shows up on the webpage body
+	where you define metadata (data about data)
+	i.e. where you define the title that shows up on the tab
+-Always put "<!DOCTYPE html> at the start of any page to be supported in all browsers
+-Boxes, inputs, links and images: main four types of elements
+
+<input type="text">
+	input tag
+	type is an attribute
+	text = the attribute's value
+	this specific example creates a blank box for inputting text
+
+different between checkbox and radio button (checkbox you can select multiple, radio buttons --> can only select one)
+
+don't have to close input tags b/c there's nothing you can really put into input tags (the user puts the info in) --> you can put placeholder text though
+
+Image tag needs a source
+Link tag uses "a href…"
+target="_blank" makes a link open in a new window
+
+<h1> (biggest) to <h6> (smallest)
+
+Concept of the Internet as a line (not a cloud)
+World is a big neighborhood
+Internet is the road between the houses
+Client = you and your browser
+Server = machine sending data
+	look at web address, if says localhost: it's located on your computer
+Everyone has an address: IP Address (internet protocol)
+
+In Terminal, you can use command "ping"
+	ping google.com shows you how fast it responds to you
+
+Google Chrome is a web browser = client
+Google itself is a server
+
+CSS
+Cascading style: whatever comes last in code will show, EXCEPT class takes precedence over tags
