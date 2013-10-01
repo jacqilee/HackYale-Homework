@@ -1,0 +1,64 @@
+Last login: Tue Sep 24 02:42:00 on ttys000
+You have mail.
+Jacqueline-Lees-MacBook-Pro:~ jacqilee$ cd hackyale
+-bash: cd: hackyale: No such file or directory
+Jacqueline-Lees-MacBook-Pro:~ jacqilee$ $ cd hackyale
+-bash: $: command not found
+Jacqueline-Lees-MacBook-Pro:~ jacqilee$ cd Documents
+Jacqueline-Lees-MacBook-Pro:Documents jacqilee$ cd 2013-2014/hackyale
+Jacqueline-Lees-MacBook-Pro:hackyale jacqilee$ ls
+week_0	week_1
+Jacqueline-Lees-MacBook-Pro:hackyale jacqilee$ mkdir hw1
+Jacqueline-Lees-MacBook-Pro:hackyale jacqilee$ git init
+Initialized empty Git repository in /Users/jacqilee/Documents/2013-2014/hackyale/.git/
+Jacqueline-Lees-MacBook-Pro:hackyale jacqilee$ git add .
+Jacqueline-Lees-MacBook-Pro:hackyale jacqilee$ git remote add origin https://github.com/jacqilee/HackYale-Homework.git
+Jacqueline-Lees-MacBook-Pro:hackyale jacqilee$ git commit -m "homework 1"
+[master (root-commit) d20ff24] homework 1
+ Committer: Jacqueline Lee <jacqilee@Jacqueline-Lees-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 13 files changed, 406 insertions(+)
+ create mode 100644 week_0/about.html
+ create mode 100644 week_0/hw0.zip
+ create mode 100644 week_0/hw0/about.html
+ create mode 100644 week_0/hw0/contact.html
+ create mode 100644 week_0/hw0/images/bb.png
+ create mode 100644 week_0/hw0/images/kikismith_flowers.jpg
+ create mode 100644 week_0/hw0/index.html
+ create mode 100644 week_0/hw0/style.css
+ create mode 100644 week_0/hw0/work.html
+ create mode 100644 week_0/index.html
+ create mode 100644 week_0/notes.txt
+ create mode 100644 week_0/style.css
+ create mode 100644 week_1/week1_notes.rtf
+Jacqueline-Lees-MacBook-Pro:hackyale jacqilee$ git push -u origin master
+error: git-credential-osxkeychain died of signal 11
+Username for 'https://github.com': jacqilee
+Password for 'https://jacqilee@github.com': 
+remote: Repository not found.
+fatal: repository 'https://github.com/jacqilee/HackYale-Homework.git/' not found
+Jacqueline-Lees-MacBook-Pro:hackyale jacqilee$ git init
+Reinitialized existing Git repository in /Users/jacqilee/Documents/2013-2014/hackyale/.git/
+Jacqueline-Lees-MacBook-Pro:hackyale jacqilee$ git add .
+Jacqueline-Lees-MacBook-Pro:hackyale jacqilee$ git remote add origin https://github.com/jacqilee/HackYale-Homework.git
+fatal: remote origin already exists.
+Jacqueline-Lees-MacBook-Pro:hackyale jacqilee$ git commit -m "homework 1"
+# On branch master
+nothing to commit, working directory clean
+Jacqueline-Lees-MacBook-Pro:hackyale jacqilee$ git push -u origin master
+error: git-credential-osxkeychain died of signal 11
+Username for 'https://github.com': jacqilee
+Password for 'https://jacqilee@github.com': 
+remote: Repository not found.
+fatal: repository 'https://github.com/jacqilee/HackYale-Homework.git/' not found
+Jacqueline-Lees-MacBook-Pro:hackyale jacqilee$ 

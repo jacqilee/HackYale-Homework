@@ -1,0 +1,194 @@
+body,html {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background-color: #fff;
+	text-align: center;
+}
+#div {
+	display: block;
+}
+.main {
+	position: relative;
+	margin: 0 auto;
+	width: 1000px;
+	height: 1350px;
+	background-color: #FBF8F5;
+	background-image: url(images/background.png);
+	background-repeat: repeat-x;
+}
+.header {
+	position: relative;
+/*	background-color: #cbc9c7;*/
+	height: 30px;
+	width: 960px;
+	padding: 20px;
+	margin: 0 auto;
+	text-align: left;
+}
+.nav-wrap {
+	position: relative;
+	float: right;
+	padding-top: 5px;
+}
+.nav {
+	position: relative;
+	float: left;
+	display: inline;
+	padding-left: 20px;
+}
+.title {
+	width: 960px;
+	height: 70px;
+	padding-top: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: 0 auto;
+	text-align: center;
+}
+.content {
+	position: relative;
+/*	background-color: #FBF8F5;*/
+	width: 960px;
+	height: 1100px;
+	padding: 20px;
+	margin: 0 auto;
+	text-align: left;
+}
+.row1 {
+	position: relative;
+	height: 400px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+.row2 {
+	position: relative;
+	height: 600px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+.column1 {
+	width: 628px;
+	height: 400px;
+	float: left;
+}
+.column1-outer {
+	width:296px;
+	height: 400px;
+	float: left;
+}
+.column1-inner {
+	width:296px;
+	height: 400px;
+	float: right;
+}
+.column2 {
+	width: 296px;
+	height: 400px;
+	float: right;
+}
+.caption {
+	position: relative;
+	width: 628px;
+	height: 200px;
+	float: left;
+}
+.img {
+	max-width: 296px;
+	max-height: 220px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.imgwide {
+	max-width: 628px;
+	max-height:360px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+.sidebar-row {
+	position: relative;
+	height: 100px;
+	margin-top: 20px;
+	border-bottom: 1px dotted black;
+}
+.sidebar-text {
+	position: relative;
+	float: right;
+	height: 80px;
+	width: 200px;
+}
+.imgsmall {
+	position: relative;
+	float: left;
+	max-width: 80px;
+	max-height: 80px;
+}
+header {
+	font-family: Helvetica, sans serif;
+	color: white;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+.name {
+	font-weight: bold;
+	font-size: 14px;
+}
+.links {
+	font-weight: normal;
+}
+h1 {
+	font-family: Helvetica, sans serif;
+	font-weight: bold;
+	color: white;
+	font-size: 30px;
+	letter-spacing: 40px;
+	margin: 0;
+}
+h2 {
+	font-family: Helvetica, sans serif;
+	font-weight: bold;
+	color: black;
+	font-size: 18px;
+	letter-spacing: 1px;
+	line-height: 18px;
+	margin: 0;
+}
+h3 {
+	font-family: Helvetica, sans serif;
+	font-weight: bold;
+	color: black;
+	font-size: 14px;
+	letter-spacing: 1px;
+	margin: 0;
+}
+h4 {
+	font-family: Helvetica, sans serif;
+	font-weight: bold;
+	color: black;
+	font-size: 12px;
+	letter-spacing: 1px;
+	margin: 0;
+}
+p {
+	font-family: Courier;
+	color: black;
+	font-size: 12px;
+	line-height: 18px;
+}
+.small {
+	font-family: Helvetica, sans serif;
+	font-size: 9px;
+	line-height: 15px;
+}
+a.links {
+	text-decoration: none;
+	color: white;
+}
+a.read {
+	text-decoration: none;
+	color: black;
+}
+a:hover, a:active {
+	text-decoration: none;
+}

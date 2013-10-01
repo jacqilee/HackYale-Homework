@@ -1,0 +1,47 @@
+body {
+	background-color: #fff;
+}
+#main {
+	position: fixed;
+	width: 100%;
+	top: 25px;
+	margin-left: 25px;
+}
+#text {
+	position: relative;
+	width: 400px;
+}
+#sideImage {
+	float: right;
+	margin-top: 25px;
+	margin-right: 10px;
+}
+h3 {
+	font-family: Akkurat, sans-serif;
+	color: #666;
+	font-size: 14px;
+	letter-spacing: 0.9em;
+	text-align: left;
+}
+p {
+	font-family: Akkurat, sans-serif;
+	color: #666;
+	font-size: 12px;
+	letter-spacing: 0.1em;
+	line-height: 16px;
+	text-align: left;
+}
+.credit {
+	font-size: 9px;
+	letter-spacing: 0em;
+	text-align: right;
+	margin-right: 35px;
+}
+a {
+	text-decoration: none;
+	color: #666;
+}
+a:hover, a:active {
+	text-decoration: none;
+	color: #e3ef24;
+}
